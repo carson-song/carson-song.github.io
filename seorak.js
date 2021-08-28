@@ -28,7 +28,7 @@ var picNum = 0;
 for (let i = 1; i < 23; i++) {
 
   picNum = i;
-  name = name + picNum + ".jpg";
+  name = name + picNum + ".JPG";
 
 $(document.body).append(' <div class="col-sm-3"> <div class=".thumbnail"> \
 <a href=" ' + folder + name + ' "> \
