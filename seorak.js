@@ -14,28 +14,27 @@ $(document).ready(function(){
       $(".desc1").slideUp ("3000");
       // $(".hoverB button").text("hover here");
       // $(".div1").animate({left: '250px'});
-})
-  ;
-
+});
 
 
 $(document).ready(function(){
   $('[data-toggle="popover"]').popover();
 });
 
-var name = "DSC0";
-var picNum = 1206;
+var folder = "./01. seorak/"
+var name = "seorak_";
+var picNum = 0;
 
-for (let i = 1; i < 71; i++) {
+for (let i = 1; i < 23; i++) {
 
-  picNum += 1;
+  picNum = i;
   name = name + picNum + ".jpg";
 
 $(document.body).append(' <div class="col-sm-3"> <div class=".thumbnail"> \
-<a href="./01. seorak/'+ name + ' "> \
-<img src="./01. seorak/'+ name + ' " alt="seorak 1" width="100%" height="auto"> </a> /</div> </div>');
+<a href=" ' + folder + name + ' "> \
+<img src=" ' + folder + name + ' " alt="seorak ' + i + ' " width="100%" height="auto"> </a> <h1> </h1></div> </div>');
 
- name = "DSC0";
+ name = "seorak_";
 
 };
 
